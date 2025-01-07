@@ -1,7 +1,20 @@
-# Gauss Legendre Integral
- 
-The main function (P2Z07_LSZ_integral.m) calculates the value of the double integral over the domain D = {(x,y) in R^2: |x| + |y| <= 1} by transforming it to the square [-1,1] x [-1,1] and applying composite 3-point Gauss-Legendre quadrature.
+# 📐 Gauss-Legendre Integral
 
-The tests (test*.m) verify the correctness of the program's operation. The remaining tests (test_num_*.m) verify the numerical properties of this method.
+This project calculates the value of a **double integral** over the domain:  
+\[
+D = \{(x, y) \in \mathbb{R}^2 : |x| + |y| \leq 1\}
+\]  
+by transforming it to the square \([-1, 1] \times [-1, 1]\) and applying **composite 3-point Gauss-Legendre quadrature**.
 
-There is also a project report (P2Z07_LSZ.pdf) written in Polish.
+The main function, **`P2Z07_LSZ_integral.m`**, implements this method to achieve efficient and accurate numerical integration.
+
+---
+
+## 🧪 Tests
+- **`test*.m`**: Validate the correctness of the integral computation.
+- **`test_num_*.m`**: Analyze the numerical properties, such as convergence and precision.
+
+---
+
+## 📄 Documentation
+The project includes a detailed **report in Polish** (`P2Z07_LSZ.pdf`), covering the theoretical background, implementation details, and analysis of the results.
